@@ -1,8 +1,3 @@
-# Generated from: app.ipynb
-# Converted at: 2026-06-02T17:26:51.607Z
-# Next step (optional): refactor into modules & generate tests with RunCell
-# Quick start: pip install runcell
-
 from flask import Flask, jsonify
 import random
 
