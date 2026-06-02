@@ -1,7 +1,3 @@
-# Generated from: simulator.ipynb
-# Converted at: 2026-06-02T17:26:09.894Z
-# Next step (optional): refactor into modules & generate tests with RunCell
-# Quick start: pip install runcell
 
 import random
 import time
