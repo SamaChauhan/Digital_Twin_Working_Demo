@@ -1,7 +1,4 @@
-# Generated from: mqtt_publisher.ipynb
-# Converted at: 2026-06-02T17:26:42.936Z
-# Next step (optional): refactor into modules & generate tests with RunCell
-# Quick start: pip install runcell
+
 
 import paho.mqtt.client as mqtt
 import random
