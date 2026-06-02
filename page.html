@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Twin Dashboard</title>
+</head>
+<body>
+    <h1>Digital Twin</h1>
+    <p>Temperature: <span id="temp"></span> °C</p>
+    <p>Occupancy: <span id="occ"></span></p>
+    <p>Power: <span id="power"></span> W</p>
+
+    <script>
+        async function fetchData() {
+            let response = await fetch("http://127.0.0.1:5000/data");
+            let data = await response.json();
+
+            document.getElementById("temp").innerText = data.temperature;
+            document.getElementById("occ").innerText = data.occupancy;
+            document.getElementById("power").innerText = data.power;
+        }
+
+        setInterval(fetchData, 2000);
+    </script>
+</body>
+</html>
