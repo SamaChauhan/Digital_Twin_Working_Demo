@@ -1,0 +1,10 @@
+The deployment lifecycle for the digital twin follows a highly interoperable, three-tier architecture designed for rapid scaling.
+
+Hardware & Data Ingestion (Edge):  
+The physical environment is outfitted with top-tier industry sensors. These sensors continuously stream raw environmental metrics (such as occupancy, meeting room utilization, and energy consumption).
+
+Middleware & Processing (Core):
+The system's backbone relies on open standard APIs to aggregate the incoming sensor telemetry. Backend logic, efficiently handled through languages like Python, acts as the routing engine, ensuring that data integrity is upheld effortlessly as it flows from the physical to the digital realm
+
+Visualization & Analytics (Client):
+The processed data is pushed to an intuitive, unified dashboard that delivers a seamless user experience. This centralized visualization layer can be integrated with advanced enterprise BI platforms like Power BI, allowing stakeholders to generate automated reports, view real-time 3D models of the property, and receive instant fault alerts
